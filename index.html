@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LivestockIndex</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search-search-table.css">
+    <link rel="stylesheet" href="assets/css/Table-With-Search.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="background: linear-gradient(#91aed0, rgb(41,44,120) 52%, #00499f);color: var(--bs-green);">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-ship" style="padding-right: 0px;margin-bottom: 0px;"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span><sub>Entry Security</sub></span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="far fa-list-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="far fa-star text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 1, 2024</span>
+                                                <p>Sample Alert</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2024</span>
+                                                <p>Sample Alert</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 3, 2024</span>
+                                                <p>Sample Alert</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Sample Alert</span></div>
+                                                <p class="small text-gray-500 mb-0">Sample Alert</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Sample Alert</span></div>
+                                                <p class="small text-gray-500 mb-0">Sample Alert - 1d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Sample Alert</span></div>
+                                                <p class="small text-gray-500 mb-0">Sample Alert- 2d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Sample Alert</span></div>
+                                                <p class="small text-gray-500 mb-0">Sample Alert · 2w</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">admin@portsecurity</span><img class="border rounded-circle img-profile" src="assets/img/181.jpg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Activity log</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav><div class="container-fluid">
+    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-dark mb-0">Dashboard</h3><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+    </div>
+    <div class="row" style="padding-left: 1px;">
+        <div class="w-100"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-7 col-xl-8">
+            <div class="card text-primary shadow mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="text-primary fw-bold m-0">Awaiting Aprroval Overview</h6>
+                </div>
+                <div class="card-body" style="height: 400px;padding-bottom: 0px;padding-left: 0px;padding-top: 0px;padding-right: 0px;margin-top: -1px;">
+                    <div class="col-md-12 search-table-col" style="padding-top: 0px;margin-top: 1px;"><span class="counter pull-right"></span>
+                        <div class="table-responsive table table-hover table-bordered results">
+                            <table class="table table-hover table-bordered">
+                                <thead class="bill-header cs">
+                                    <tr>
+                                        <th id="trs-hd-1" class="col-lg-1">No.</th>
+                                        <th id="trs-hd-2" class="col-lg-2"><br /><strong>Full Name</strong></th>
+                                        <th id="trs-hd-3" class="col-lg-3">ID Number</th>
+                                        <th id="trs-hd-4" class="col-lg-2">Category</th>
+                                        <th id="trs-hd-5" class="col-lg-2">Nationality</th>
+                                        <th id="trs-hd-6" class="col-lg-2">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="warning no-result">
+                                        <td colspan="12"><i class="fa fa-warning"></i>  No Result !!!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Visitor</td>
+                                        <td>Local</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                    <tr class="warning no-result">
+                                        <td colspan="12"><i class="fa fa-warning"></i>  No Result !!!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Contractor</td>
+                                        <td>Local</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>03</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Contractor</td>
+                                        <td>Foreigner</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>04</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Contractor</td>
+                                        <td>Foreigner</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>05</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Visitor</td>
+                                        <td>Foreigner</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>06</td>
+                                        <td>abc</td>
+                                        <td>123456789</td>
+                                        <td>Contractor</td>
+                                        <td>Local</td>
+                                        <td><button class="btn btn-success" style="margin-left: 5px;" type="submit"><i class="fa fa-check" style="font-size: 15px;"></i></button><button class="btn btn-danger" style="margin-left: 5px;" type="submit"><i class="fa fa-trash" style="font-size: 15px;"></i></button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-xl-4 offset-lg-0">
+            <div class="card shadow mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="text-primary fw-bold m-0">Recent</h6>
+                </div>
+                <div class="card-body" style="height: 400px;">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Time Approved</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>2024905T13:22-0500</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                                <tr>
+                                    <td>abc</td>
+                                    <td>20240906T13:22-0800</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="text-center small mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © BintuluPortEntry2024</span></div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Table-With-Search-search-table.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
